@@ -96,5 +96,5 @@ function draw(){
   frame++// = Math.floor(Math.random() * 1000)
   //fq = $.amod(63, 1/sampleRate*8, frame / sampleRate, 1)//(fq + 1) % (sampleRate/2)
   fq = (frame) % (sampleRate) 
-  setTimeout(_=>window.requestAnimationFrame(draw),3000)
+  setTimeout(_=>window.requestAnimationFrame(draw),1333)
 }
